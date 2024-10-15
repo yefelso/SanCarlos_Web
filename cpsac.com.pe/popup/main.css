@@ -1,0 +1,164 @@
+#mask {
+    width: 100%!important;
+
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:10002;
+  background-color:#000;
+  display:none;
+  opacity: 0.8;
+}  
+#boxes .window {
+  position:fixed;
+  left:0;
+  top:0;
+  width:700px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+
+#boxes #dialog {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 10px!important;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+    top: 10% !important;
+    z-index: 10003;
+    left: 0!important;
+}
+
+
+.centrado-popup{
+  margin: 0 auto;
+  width: 500px
+}
+
+.close-popup {
+  width: 30px;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+    margin: 20px
+}
+
+.close-popup:hover, .close-popup:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+a.boton-popup{
+  padding: 10px;
+  background-color: #2fa43a;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #fff;
+  width: 30%;
+}
+
+
+a.boton-popup:hover{
+  background-color: #fff;
+  color: #2fa43a;
+}
+
+
+@media(max-width: 1200px){
+
+
+}
+
+
+
+@media(max-width: 960px){
+.centrado{
+  margin: 0 auto;
+  width: 400px
+}
+}
+
+
+@media(max-width: 767px){
+
+
+
+ a.boton-popup{
+  padding: 10px;
+  background-color: #2fa43a;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #fff;
+  width: 50%;
+}
+
+
+a.boton-popup:hover{
+  background-color: #fff;
+  color: #2fa43a;
+}
+ 
+
+}
+
+@media(max-width: 480px){
+.centrado{
+  margin: 0 auto;
+  width: 100%;
+}
+}
+
+
+.maintext{
+	text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  text-decoration: none;
+}
+body{
+  background: url('bg.html');
+}
+#lorem{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+  text-align: left;
+}
+#popupfoot{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16pt;
+  padding: 10px 20px;
+}
+#popupfoot a{
+	text-decoration: none;
+}
+.agree:hover{
+  background-color: #D1D1D1;
+}
+.popupoption:hover{
+	background-color:#D1D1D1;
+	color: green;
+}
+.popupoption2:hover{
+	
+	color: red;
+}

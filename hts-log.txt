@@ -1,0 +1,19 @@
+HTTrack3.49-1+htsswf+htsjava launched on Mon, 07 Oct 2024 17:39:51 at http://cpsac.com.pe/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://cpsac.com.pe/ -O1 "C:\My Web Sites\copiaSPSAC" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:53:29	Error: 	"Not Found" (404) at link cpsac.com.pe/assets/css/owl.video.play.png (from cpsac.com.pe/assets/css/owl.carousel.min.css)
+17:53:29	Warning: 	Retry after error -4 (Incorrect length (402141 Bytes, 491866 expected)) at link cpsac.com.pe/assets/images/slide7.jpg (from cpsac.com.pe/style.css)
+17:53:35	Warning: 	Retry after error -4 (Incorrect length (269585 Bytes, 358949 expected)) at link cpsac.com.pe/assets/images/fondo-interno.jpg (from cpsac.com.pe/style.css)
+17:53:35	Error: 	"Not Found" (404) at link cpsac.com.pe/popup/bg.jpg (from cpsac.com.pe/popup/main.css)
+17:53:35	Warning: 	Retry after error -4 (Incorrect length (402498 Bytes, 501906 expected)) at link cpsac.com.pe/assets/images/fachada-cpsac.jpg (from cpsac.com.pe/nosotros.html)
+17:53:44	Warning: 	Retry after error -4 (Incorrect length (545334 Bytes, 628694 expected)) at link cpsac.com.pe/assets/images/vision.jpg (from cpsac.com.pe/nosotros.html)
+17:53:44	Warning: 	Retry after error -4 (Incorrect length (273655 Bytes, 393282 expected)) at link cpsac.com.pe/assets/images/cronograma.jpg (from cpsac.com.pe/cronograma.html)
+17:53:49	Warning: 	Retry after error -4 (Incorrect length (143049 Bytes, 323224 expected)) at link cpsac.com.pe/assets/images/vertical-2.jpg (from cpsac.com.pe/postula.html)
+
+HTTrack Website Copier/3.49-1 mirror complete in 14 minutes 12 seconds : 171 links scanned, 162 files written (22418279 bytes overall) [21572646 bytes received at 25320 bytes/sec], 1162990 bytes transferred using HTTP compression in 28 files, ratio 22%, 1.9 requests per connection
+(2 errors, 6 warnings, 0 messages)
